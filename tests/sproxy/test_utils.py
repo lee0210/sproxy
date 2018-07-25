@@ -15,5 +15,3 @@ def test_read_write_request():
     output_data = read_request(conn)
     assert(output_data == input_data)
    
-def test_testTravisCI():
-    assert(False)       
